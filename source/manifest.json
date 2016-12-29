@@ -1,0 +1,16 @@
+{
+  "name": "Right Click Email for Inbox",
+  "description": "Gives a right-click menu to open email links for Google Inbox. Even if your default email application isn't set to Inbox",
+  "version": "0.7",
+  "homepage_url": "https://centerorbit.com/chrome-web-store/",
+  "permissions": ["contextMenus"],
+  "icons": {
+    "16": "icon-16.png",
+	"48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": ["inboxLink.js"]
+  },
+  "manifest_version": 2
+}
